@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato";
+}
+
+
+
+.quiz_header {
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: rgb(176, 169, 204);
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  padding-right: 30px;
+
+}
+.quiz_body {
+  padding: 30px 30px;
+}
+.quiz_user {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 100%;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+.quiz_body {
+  background-color: #ecf0f1;
+}
+
+.option_group {
+  list-style-type: none;
+  margin: 30px 0;
+}
+
+.option {
+  display: block;
+  width: 300px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border-radius: 100px;
+  border: 2px solid transparent;
+  transition: 0.4s all;
+  text-align: center;
+}
+
+.option:hover {
+  cursor: pointer;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  border: 2px solid #341f97;
+  color: #341f97;
+}
+.option.active {
+  background-color: #341f97;
+  color: #fff;
+}
+.btn-next {
+  border: none;
+  padding: 15px 35px;
+  background-color: #1f3b97;
+  color: #fff;
+  border-radius: 27px;
+  transition: 0.4s all;
+  margin: 2%;
+  
+}
+
+.btn-next:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #1f3b97;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.btn-previous {
+  border: none;
+  padding: 15px 35px;
+  background-color: #1f3b97;
+  color: #fff;
+  border-radius: 27px;
+  margin: 2%;
+}
+
+.btn-previous:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #1f3b97;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.award_icon {
+  display: block;
+  font-size: 300px;
+  color: #fff;
+}
+
+.username,
+.userpoints,
+.usertime {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+input[type="button"]{
+  width: 58px;
+  height: 55px;
+  margin: 5px;
+  font-size: 22px;
+  line-height: 55px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  background: linear-gradient(#d9d9d9,#bfbfbf);
+}
+input[type="button"]:hover{background:linear-gradient(#bfbfbf,#d9d9d9);cursor: pointer;}
+
+.buttons{
+  margin: auto;
+}
+
+
+
+details > summary {
+  padding: 4px;
+  width: auto;
+  background-color: #3feec2;
+  border-radius: 25px;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > h5 {
+  color: #ffffff;
+  background-color: #000000;
+  width: auto;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+
+.option.correct {
+  background-color: #2da70f;
+  color: #fff;
+}
+.option.incorrect {
+  background-color: #fa1226;
+  color: #fff;
+}
+.state{
+  background-color: #340461;
+  color: #fff;
+  margin: auto;
+  padding:6px;
+  width: 10rem;
+  text-align: center;
+}
+.cal{
+background-color: #0c9c6c;
+
+}
